@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Flex Panels Image Gallery</title>
+    <style>
+        @layer utilities{
+            .font-family{
+                font-family: 'Caveat', cursive;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-500 font-family">
+    <main class="w-[80%] h-[90vh] mx-auto mt-[25px] flex flex-row overflow-hidden">
+        <div class="image_one bg-[url('images/image-one.jpg')] bg-no-repeat bg-cover bg-center w-[20%] h-[100%] flex justify-center items-center text-white text-[1.5rem] border-[1.5px] border-gray-500 font-bold relative "><h1 class="h1_one absolute top-[-65px] text-gray-500 text-[2rem] font-thin">HEY</h1><p>LET'S</p><h2 class="h2_one absolute bottom-[-60px] text-gray-500 text-[2rem] font-thin">DANCE</h2></div>
+        <div class="image_two bg-[url('images/image-two.jpg')] bg-no-repeat bg-cover bg-center w-[20%] h-full flex justify-center items-center text-white text-[1.5rem] border-[1.5px] border-gray-500 font-bold relative"><h1 class="h1_two absolute top-[-65px] text-gray-500 text-[2rem] font-thin">GIVE</h1><p>TAKE</p><h2 class="h2_two absolute bottom-[-60px] text-gray-500 text-[2rem] font-thin">RECEIVE</h2></div>
+        <div class="image_three bg-[url('images/image-three.jpg')] bg-no-repeat bg-cover bg-center w-[20%] h-full flex justify-center items-center text-white text-[1.5rem] border-[1.5px] border-gray-500 font-bold relative"><h1 class="h1_three absolute top-[-65px] text-gray-500 text-[2rem] font-thin">experience</h1><p>IT</p><h2 class="h2_three absolute bottom-[-60px] text-gray-500 text-[2rem] font-thin">TODAY</h2></div>
+        <div class="image_four bg-[url('images/image-four.jpg')] bg-no-repeat bg-cover bg-center w-[20%] h-full flex justify-center items-center text-white text-[1.5rem] border-[1.5px] border-gray-500 font-bold relative"><h1 class="h1_four absolute top-[-65px] text-gray-500 text-[2rem] font-thin">GIVE</h1><p>ALL</p><h2 class="h2_four absolute bottom-[-85px] text-gray-500 text-[2rem] font-thin">YOU CAN</h2></div>
+        <div class="image_five bg-[url('images/image-five.jpg')] bg-no-repeat bg-cover bg-center w-[20%] h-full flex justify-center items-center text-white text-[1.5rem] border-[1.5px] border-gray-500 font-bold relative"><h1 class="h1_five absolute top-[-65px] text-gray-500 text-[2rem] font-thin">LIFE</h1><p>IN</p><h2 class="h2_five absolute bottom-[-60px] text-gray-500 text-[2rem] font-thin">MOTION</h2></div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
